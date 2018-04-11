@@ -1,0 +1,186 @@
+Name/Type/Globex/Open OutCry/Clear Port/Volume/Open Interest/Change/
+FX////////
+Australian Dollar Future/Futures/107,945/0/55/108,000/104,227/-822/
+Premium Quoted European Style Options on Australian Dollar/US Dollar Future/Options/3,198/0/0/3,198/85,635/947/
+Premium Quoted European Style Options on Australian Dollar/US Dollar Future/Calls/1,239/0/0/1,239/30,285/378/
+Premium Quoted European Style Options on Australian Dollar/US Dollar Future/Puts/1,959/0/0/1,959/55,350/569/
+Weekly Premium Quoted European Style Options on Australian Dollar/US Dollar Futures - Wk 2/Options/757/0/0/757/4,161/78/
+Weekly Premium Quoted European Style Options on Australian Dollar/US Dollar Futures - Wk 2/Calls/287/0/0/287/2,375/96/
+Weekly Premium Quoted European Style Options on Australian Dollar/US Dollar Futures - Wk 2/Puts/470/0/0/470/1,786/-18/
+Weekly Premium Quoted European Style Options on Australian Dollar/US Dollar Futures - Wk 3/Options/1,971/0/0/1,971/4,380/1,762/
+Weekly Premium Quoted European Style Options on Australian Dollar/US Dollar Futures - Wk 3/Calls/949/0/0/949/2,547/852/
+Weekly Premium Quoted European Style Options on Australian Dollar/US Dollar Futures - Wk 3/Puts/1,022/0/0/1,022/1,833/910/
+Weekly Premium Quoted European Style Options on Australian Dollar/US Dollar Futures - Wk 4/Options/1,834/0/0/1,834/2,649/1,143/
+Weekly Premium Quoted European Style Options on Australian Dollar/US Dollar Futures - Wk 4/Calls/987/0/0/987/1,435/585/
+Weekly Premium Quoted European Style Options on Australian Dollar/US Dollar Futures - Wk 4/Puts/847/0/0/847/1,214/558/
+AUD/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 1/Options/18/0/0/18/153/18/
+AUD/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 1/Calls/0/0/0/0/35/0/
+AUD/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 1/Puts/18/0/0/18/118/18/
+AUD/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 2/Options/61/0/0/61/404/35/
+AUD/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 2/Calls/28/0/0/28/138/10/
+AUD/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 2/Puts/33/0/0/33/266/25/
+AUD/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 3/Options/472/0/0/472/637/455/
+AUD/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 3/Calls/223/0/0/223/275/215/
+AUD/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 3/Puts/249/0/0/249/362/240/
+AUD/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 4/Options/6/0/0/6/207/6/
+AUD/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 4/Calls/6/0/0/6/206/6/
+AUD/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 4/Puts/0/0/0/0/1/0/
+Australian Dollar/Japanese Yen Future/Futures/138/0/2/140/904/-2/
+Australian Dollar/New Zealand Dollar Future/Futures/0/0/0/0/86/0/
+Brazilian Real Future/Futures/4,889/0/0/4,889/32,523/84/
+British Pound Future/Futures/85,670/0/7/85,677/183,221/4,396/
+European Style British Pound/Options/0/0/0/0/229/0/
+European Style British Pound/Calls/0/0/0/0/116/0/
+European Style British Pound/Puts/0/0/0/0/113/0/
+Premium Quoted European Style Options on British Pound/US Dollar Future/Options/6,385/0/0/6,385/93,572/3,340/
+Premium Quoted European Style Options on British Pound/US Dollar Future/Calls/4,054/0/0/4,054/46,772/2,330/
+Premium Quoted European Style Options on British Pound/US Dollar Future/Puts/2,331/0/0/2,331/46,800/1,010/
+Weekly Premium Quoted European Style Options on British Pound/US Dollar Futures - Wk 2/Options/901/0/0/901/5,720/516/
+Weekly Premium Quoted European Style Options on British Pound/US Dollar Futures - Wk 2/Calls/703/0/0/703/3,380/427/
+Weekly Premium Quoted European Style Options on British Pound/US Dollar Futures - Wk 2/Puts/198/0/0/198/2,340/89/
+Weekly Premium Quoted European Style Options on British Pound/US Dollar Futures - Wk 3/Options/112/0/0/112/4,509/35/
+Weekly Premium Quoted European Style Options on British Pound/US Dollar Futures - Wk 3/Calls/59/0/0/59/2,637/20/
+Weekly Premium Quoted European Style Options on British Pound/US Dollar Futures - Wk 3/Puts/53/0/0/53/1,872/15/
+Weekly Premium Quoted European Style Options on British Pound/US Dollar Futures - Wk 4/Options/213/0/0/213/3,461/62/
+Weekly Premium Quoted European Style Options on British Pound/US Dollar Futures - Wk 4/Calls/102/0/0/102/1,151/42/
+Weekly Premium Quoted European Style Options on British Pound/US Dollar Futures - Wk 4/Puts/111/0/0/111/2,310/20/
+GBP/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 1/Options/0/0/0/0/130/0/
+GBP/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 1/Calls/0/0/0/0/106/0/
+GBP/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 1/Puts/0/0/0/0/24/0/
+GBP/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 2/Options/190/0/0/190/1,251/171/
+GBP/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 2/Calls/10/0/0/10/242/5/
+GBP/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 2/Puts/180/0/0/180/1,009/166/
+GBP/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 3/Options/259/0/0/259/794/234/
+GBP/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 3/Calls/25/0/0/25/54/23/
+GBP/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 3/Puts/234/0/0/234/740/211/
+GBP/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 4/Options/32/0/0/32/485/29/
+GBP/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 4/Calls/24/0/0/24/386/21/
+GBP/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 4/Puts/8/0/0/8/99/8/
+British Pound/Japanese Yen Future/Futures/72/0/3/75/461/21/
+British Pound/Swiss Franc Future/Futures/8/0/0/8/101/7/
+Canadian Dollar Future/Futures/87,916/0/158/88,074/124,732/1,230/
+European Style Canadian Dollar/Options/0/0/0/0/50/0/
+European Style Canadian Dollar/Calls/0/0/0/0/50/0/
+Premium Quoted European Style Options on Canadian Dollar/US Dollar Future/Options/7,542/0/0/7,542/51,059/1,973/
+Premium Quoted European Style Options on Canadian Dollar/US Dollar Future/Calls/3,231/0/0/3,231/26,103/1,023/
+Premium Quoted European Style Options on Canadian Dollar/US Dollar Future/Puts/4,311/0/0/4,311/24,956/950/
+Weekly Premium Quoted European Style Options on Canadian Dollar/US Dollar Futures - Wk 2/Options/1,145/0/0/1,145/10,491/774/
+Weekly Premium Quoted European Style Options on Canadian Dollar/US Dollar Futures - Wk 2/Calls/747/0/0/747/6,999/448/
+Weekly Premium Quoted European Style Options on Canadian Dollar/US Dollar Futures - Wk 2/Puts/398/0/0/398/3,492/326/
+Weekly Premium Quoted European Style Options on Canadian Dollar/US Dollar Futures - Wk 3/Options/791/0/0/791/5,052/373/
+Weekly Premium Quoted European Style Options on Canadian Dollar/US Dollar Futures - Wk 3/Calls/740/0/0/740/3,365/332/
+Weekly Premium Quoted European Style Options on Canadian Dollar/US Dollar Futures - Wk 3/Puts/51/0/0/51/1,687/41/
+Weekly Premium Quoted European Style Options on Canadian Dollar/US Dollar Futures - Wk 4/Options/116/0/0/116/2,365/44/
+Weekly Premium Quoted European Style Options on Canadian Dollar/US Dollar Futures - Wk 4/Calls/62/0/0/62/1,241/14/
+Weekly Premium Quoted European Style Options on Canadian Dollar/US Dollar Futures - Wk 4/Puts/54/0/0/54/1,124/30/
+CAD/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 2/Options/351/0/0/351/1,146/260/
+CAD/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 2/Calls/316/0/0/316/766/241/
+CAD/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 2/Puts/35/0/0/35/380/19/
+CAD/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 3/Options/177/0/0/177/1,835/176/
+CAD/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 3/Calls/176/0/0/176/1,574/176/
+CAD/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 3/Puts/1/0/0/1/261/0/
+CAD/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 4/Options/69/0/0/69/822/58/
+CAD/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 4/Calls/14/0/0/14/333/3/
+CAD/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 4/Puts/55/0/0/55/489/55/
+Canadian Dollar/Japanese Yen Future/Futures/52/0/0/52/52/-48/
+Chilean Peso/US Dollar (CLP/USD) Futures/Futures/94/0/0/94/1,114/-4/
+Chinese Renminbi/USD Future/Futures/0/0/0/0/3/0/
+E-micro Australian Dollar/American Dollar Future/Futures/5,133/0/0/5,133/1,852/97/
+E-micro British Pound/American Dollar Future/Futures/1,934/0/0/1,934/4,219/-210/
+E-micro Canadian Dollar/American Dollar Future/Futures/837/0/0/837/1,843/109/
+E-micro Euro/American Dollar Future/Futures/13,998/0/0/13,998/8,893/373/
+E-micro Indian Rupee/USD Future/Futures/95/0/0/95/282/4/
+E-micro Japanese Yen/American Dollar Future/Futures/1,927/0/0/1,927/1,596/39/
+E-micro Swiss Franc/American Dollar Future/Futures/35/0/0/35/95/1/
+E-mini Euro FX Future/Futures/3,126/0/0/3,126/12,774/-39/
+E-mini Japanese Yen Future/Futures/622/0/0/622/634/45/
+Euro FX Future/Futures/232,106/0/393/232,499/508,452/10,508/
+European Style Euro FX/Options/0/0/0/0/10/0/
+European Style Euro FX/Calls/0/0/0/0/7/0/
+European Style Euro FX/Puts/0/0/0/0/3/0/
+Premium Quoted European Style Options on Euro/US Dollar Future/Options/13,740/20/0/13,760/214,468/4,010/
+Premium Quoted European Style Options on Euro/US Dollar Future/Calls/5,593/10/0/5,603/89,505/2,128/
+Premium Quoted European Style Options on Euro/US Dollar Future/Puts/8,147/10/0/8,157/124,963/1,882/
+Weekly Premium Quoted European Style Options on Euro/US Dollar Futures - Wk 2/Options/3,628/0/0/3,628/16,677/800/
+Weekly Premium Quoted European Style Options on Euro/US Dollar Futures - Wk 2/Calls/1,900/0/0/1,900/7,534/221/
+Weekly Premium Quoted European Style Options on Euro/US Dollar Futures - Wk 2/Puts/1,728/0/0/1,728/9,143/579/
+Weekly Premium Quoted European Style Options on Euro/US Dollar Futures - Wk 3/Options/653/0/0/653/7,131/273/
+Weekly Premium Quoted European Style Options on Euro/US Dollar Futures - Wk 3/Calls/318/0/0/318/2,701/160/
+Weekly Premium Quoted European Style Options on Euro/US Dollar Futures - Wk 3/Puts/335/0/0/335/4,430/113/
+Weekly Premium Quoted European Style Options on Euro/US Dollar Futures - Wk 4/Options/780/0/250/1,030/4,701/169/
+Weekly Premium Quoted European Style Options on Euro/US Dollar Futures - Wk 4/Calls/520/0/0/520/2,825/395/
+Weekly Premium Quoted European Style Options on Euro/US Dollar Futures - Wk 4/Puts/260/0/250/510/1,876/-226/
+EUR/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 1/Options/4/0/0/4/805/4/
+EUR/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 1/Calls/0/0/0/0/202/0/
+EUR/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 1/Puts/4/0/0/4/603/4/
+EUR/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 2/Options/3,094/0/0/3,094/4,013/997/
+EUR/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 2/Calls/1,220/0/0/1,220/1,821/380/
+EUR/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 2/Puts/1,874/0/0/1,874/2,192/617/
+EUR/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 3/Options/359/0/0/359/718/323/
+EUR/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 3/Calls/83/0/0/83/288/70/
+EUR/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 3/Puts/276/0/0/276/430/253/
+EUR/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 4/Options/537/0/0/537/1,262/518/
+EUR/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 4/Calls/520/0/0/520/715/515/
+EUR/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 4/Puts/17/0/0/17/547/3/
+Euro/Australian Dollar Future/Futures/23/0/3/26/1,214/1/
+Euro/British Pound Future/Futures/2,282/0/16/2,298/36,802/-291/
+Euro/Canadian Dollar Future/Futures/134/0/0/134/1,566/-1/
+Euro/Japanese Yen Future/Futures/2,853/0/797/3,650/18,206/745/
+Euro/Norwegian Krone Future/Futures/48/0/0/48/138/38/
+Euro/Swedish Krona Future/Futures/2/0/0/2/798/-2/
+Euro/Swiss Franc Future/Futures/1,129/0/8/1,137/10,684/50/
+Indian Rupee/USD Future/Futures/2,580/0/0/2,580/1,535/176/
+Israeli Shekel Future/Futures/0/0/27/27/805/0/
+Japanese Yen Future/Futures/148,466/0/0/148,466/151,349/992/
+Premium Quoted European Style Options on Japanese Yen/US Dollar Future/Options/4,963/0/0/4,963/94,452/920/
+Premium Quoted European Style Options on Japanese Yen/US Dollar Future/Calls/1,807/0/0/1,807/46,046/182/
+Premium Quoted European Style Options on Japanese Yen/US Dollar Future/Puts/3,156/0/0/3,156/48,406/738/
+Weekly Premium Quoted European Style Options on Japanese Yen/US Dollar Futures - Wk 2/Options/1,221/0/0/1,221/9,679/380/
+Weekly Premium Quoted European Style Options on Japanese Yen/US Dollar Futures - Wk 2/Calls/581/0/0/581/5,257/189/
+Weekly Premium Quoted European Style Options on Japanese Yen/US Dollar Futures - Wk 2/Puts/640/0/0/640/4,422/191/
+Weekly Premium Quoted European Style Options on Japanese Yen/US Dollar Futures - Wk 3/Options/826/0/0/826/5,688/441/
+Weekly Premium Quoted European Style Options on Japanese Yen/US Dollar Futures - Wk 3/Calls/405/0/0/405/3,312/169/
+Weekly Premium Quoted European Style Options on Japanese Yen/US Dollar Futures - Wk 3/Puts/421/0/0/421/2,376/272/
+Weekly Premium Quoted European Style Options on Japanese Yen/US Dollar Futures - Wk 4/Options/757/0/0/757/4,017/157/
+Weekly Premium Quoted European Style Options on Japanese Yen/US Dollar Futures - Wk 4/Calls/425/0/0/425/1,676/39/
+Weekly Premium Quoted European Style Options on Japanese Yen/US Dollar Futures - Wk 4/Puts/332/0/0/332/2,341/118/
+JPY/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 1/Options/0/0/0/0/5/0/
+JPY/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 1/Puts/0/0/0/0/5/0/
+JPY/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 2/Options/184/0/0/184/752/6/
+JPY/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 2/Calls/114/0/0/114/357/-9/
+JPY/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 2/Puts/70/0/0/70/395/15/
+JPY/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 3/Options/22/0/0/22/939/7/
+JPY/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 3/Calls/17/0/0/17/715/2/
+JPY/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 3/Puts/5/0/0/5/224/5/
+JPY/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 4/Options/29/0/0/29/645/14/
+JPY/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 4/Calls/10/0/0/10/527/-5/
+JPY/USD Wednesday Premium Quoted European Style Option - 2 pm Fix - Wk 4/Puts/19/0/0/19/118/19/
+Korean Won Future/Futures/17/0/0/17/71/9/
+Mexican Peso Future/Futures/43,850/0/0/43,850/223,507/-177/
+Mexican Peso/Options/250/0/0/250/4,197/250/
+Mexican Peso/Calls/250/0/0/250/3,373/250/
+Mexican Peso/Puts/0/0/0/0/824/0/
+Mexican Peso (MXN/USD) Weekly Options - Wk 2/Options/0/0/0/0/100/0/
+Mexican Peso (MXN/USD) Weekly Options - Wk 2/Calls/0/0/0/0/100/0/
+New Zealand Dollar Future/Futures/31,629/0/401/32,030/55,938/5,597/
+Norwegian Krone Future/Futures/236/0/0/236/1,389/67/
+Polish Zloty Future/Futures/0/0/0/0/55/0/
+Polish Zloty/Euro (PLN/EUR) Cross Rate Future/Futures/1/0/0/1/2/-1/
+Russian Ruble Future/Futures/14,345/0/5/14,350/29,623/-315/
+South African Rand Future/Futures/1,969/0/0/1,969/11,233/56/
+Standard-Size USD/Offshore RMB (CNH) Future/Futures/112/0/0/112/1,160/20/
+Swedish Krona Future/Futures/114/0/0/114/1,476/-10/
+Swiss Franc Future/Futures/22,287/0/11/22,298/51,144/1/
+Premium Quoted European Style Options on Swiss Franc/US Dollar Future/Options/260/0/0/260/2,147/122/
+Premium Quoted European Style Options on Swiss Franc/US Dollar Future/Calls/106/0/0/106/356/-32/
+Premium Quoted European Style Options on Swiss Franc/US Dollar Future/Puts/154/0/0/154/1,791/154/
+Weekly Premium Quoted European Style Options on Swiss Franc/US Dollar Futures - Wk 2/Options/0/0/0/0/15/0/
+Weekly Premium Quoted European Style Options on Swiss Franc/US Dollar Futures - Wk 2/Calls/0/0/0/0/13/0/
+Weekly Premium Quoted European Style Options on Swiss Franc/US Dollar Futures - Wk 2/Puts/0/0/0/0/2/0/
+Weekly Premium Quoted European Style Options on Swiss Franc/US Dollar Futures - Wk 3/Options/0/0/0/0/155/0/
+Weekly Premium Quoted European Style Options on Swiss Franc/US Dollar Futures - Wk 3/Calls/0/0/0/0/5/0/
+Weekly Premium Quoted European Style Options on Swiss Franc/US Dollar Futures - Wk 3/Puts/0/0/0/0/150/0/
+Weekly Premium Quoted European Style Options on Swiss Franc/US Dollar Futures - Wk 4/Options/1/0/0/1/3/0/
+Weekly Premium Quoted European Style Options on Swiss Franc/US Dollar Futures - Wk 4/Calls/1/0/0/1/3/0/
+Turkish Lira Future/Futures/0/0/0/0/8,318/0/
+
