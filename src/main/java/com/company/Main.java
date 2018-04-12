@@ -5,12 +5,7 @@ import org.apache.poi.hssf.usermodel.HSSFRow;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.poifs.filesystem.POIFSFileSystem;
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.CellStyle;
-import org.apache.poi.ss.usermodel.DataFormat;
-import sun.text.normalizer.UCharacter;
 
-import javax.swing.text.Style;
 import java.io.*;
 import java.net.URL;
 import java.util.ArrayList;
@@ -105,9 +100,6 @@ public class Main {
         HSSFWorkbook workbook = new HSSFWorkbook(myFileSystem);
 
         HSSFSheet sheet = workbook.getSheetAt(0);
-        DataFormat format = workbook.createDataFormat();
-
-
 
         for (int i = 0; i < sheet.getLastRowNum(); i++) {
             if (sheet.getRow(i) != null && sheet.getRow(i).getCell(0).getStringCellValue().equals("Australian Dollar Future"))
@@ -138,9 +130,6 @@ public class Main {
         FileInputStream myInput = new FileInputStream(primary_file);
         POIFSFileSystem myFileSystem = new POIFSFileSystem(myInput);
         HSSFWorkbook workbook = new HSSFWorkbook(myFileSystem);
-
-        DataFormat format = workbook.createDataFormat();
-
 
         HSSFSheet sheet = workbook.getSheetAt(0);
 
