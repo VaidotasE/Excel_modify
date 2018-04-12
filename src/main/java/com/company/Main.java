@@ -5,7 +5,12 @@ import org.apache.poi.hssf.usermodel.HSSFRow;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.poifs.filesystem.POIFSFileSystem;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.CellStyle;
+import org.apache.poi.ss.usermodel.DataFormat;
+import sun.text.normalizer.UCharacter;
 
+import javax.swing.text.Style;
 import java.io.*;
 import java.net.URL;
 import java.util.ArrayList;
@@ -24,8 +29,15 @@ public class Main {
     public static void main(String[] args) throws IOException {
         Main obj = new Main();
         obj.onDownload();
+
         obj.convertExcelToTxt();
-        obj.removeRows();
+        obj.Futures_OI();
+        obj.AudUsd_Options();
+        obj.EurUsd_Options();
+        obj.GbpUsd_Options();
+        obj.UsdCad_Options();
+        obj.UsdJpy_Options();
+        obj.UsdChf_Options();
 
     }
 
@@ -80,44 +92,156 @@ public class Main {
             for (int j = 0; j < cellRowList.size(); j++) {
                 HSSFCell myCell = (HSSFCell) cellRowList.get(j);
                 String stringCellValue = myCell.toString();
-                stream.print(stringCellValue + "/");
+                stream.print(stringCellValue + "|");
             }
             stream.println("");
         }
     }
 
-    public void removeRows() throws IOException {
-
+    public void Futures_OI() throws IOException {
 
         FileInputStream myInput = new FileInputStream(primary_file);
         POIFSFileSystem myFileSystem = new POIFSFileSystem(myInput);
         HSSFWorkbook workbook = new HSSFWorkbook(myFileSystem);
 
-        HSSFSheet mysheet = workbook.getSheetAt(0);
+        HSSFSheet sheet = workbook.getSheetAt(0);
+        DataFormat format = workbook.createDataFormat();
 
 
-        for (int i = 0; i < mysheet.getLastRowNum(); i++) {
-            if (mysheet.getRow(i) != null && mysheet.getRow(i).getCell(0).getStringCellValue().equals("Australian Dollar Future"))
-                System.out.println(mysheet.getRow(i).getCell(2) + " | " + mysheet.getRow(i).getCell(6));
 
-            if (mysheet.getRow(i) != null && mysheet.getRow(i).getCell(0).getStringCellValue().equals("Euro FX Future"))
-                System.out.println(mysheet.getRow(i).getCell(2) + " | " + mysheet.getRow(i).getCell(6));
+        for (int i = 0; i < sheet.getLastRowNum(); i++) {
+            if (sheet.getRow(i) != null && sheet.getRow(i).getCell(0).getStringCellValue().equals("Australian Dollar Future"))
+                System.out.println("AudUsd Futures " + sheet.getRow(i).getCell(2) + " VOI " + sheet.getRow(i).getCell(6));
 
-            if (mysheet.getRow(i) != null && mysheet.getRow(i).getCell(0).getStringCellValue().equals("British Pound Future"))
-                System.out.println(mysheet.getRow(i).getCell(2) + " | " + mysheet.getRow(i).getCell(6));
+            if (sheet.getRow(i) != null && sheet.getRow(i).getCell(0).getStringCellValue().equals("Euro FX Future"))
+                System.out.println("EurUsd Futures " + sheet.getRow(i).getCell(2) + " VOI " + sheet.getRow(i).getCell(6));
 
-            if (mysheet.getRow(i) != null && mysheet.getRow(i).getCell(0).getStringCellValue().equals("Canadian Dollar Future"))
-                System.out.println(mysheet.getRow(i).getCell(2) + " | " + mysheet.getRow(i).getCell(6));
+            if (sheet.getRow(i) != null && sheet.getRow(i).getCell(0).getStringCellValue().equals("British Pound Future"))
+                System.out.println("GbpUsd Futures " + sheet.getRow(i).getCell(2) + " VOI " + sheet.getRow(i).getCell(6));
 
-            if (mysheet.getRow(i) != null && mysheet.getRow(i).getCell(0).getStringCellValue().equals("Japanese Yen Future"))
-                System.out.println(mysheet.getRow(i).getCell(2) + " | " + mysheet.getRow(i).getCell(6));
+            if (sheet.getRow(i) != null && sheet.getRow(i).getCell(0).getStringCellValue().equals("Canadian Dollar Future"))
+                System.out.println("UsdCad Futures " + sheet.getRow(i).getCell(2) + " VOI " + sheet.getRow(i).getCell(6));
 
-            if (mysheet.getRow(i) != null && mysheet.getRow(i).getCell(0).getStringCellValue().equals("New Zealand Dollar Future"))
-                System.out.println(mysheet.getRow(i).getCell(2) + " | " + mysheet.getRow(i).getCell(6));
+            if (sheet.getRow(i) != null && sheet.getRow(i).getCell(0).getStringCellValue().equals("Japanese Yen Future"))
+                System.out.println("UsdJpy Futures " + sheet.getRow(i).getCell(2) + " VOI " + sheet.getRow(i).getCell(6));
 
-            if (mysheet.getRow(i) != null && mysheet.getRow(i).getCell(0).getStringCellValue().equals("Swiss Franc Future"))
-                System.out.println(mysheet.getRow(i).getCell(2) + " | " + mysheet.getRow(i).getCell(6));
+            if (sheet.getRow(i) != null && sheet.getRow(i).getCell(0).getStringCellValue().equals("New Zealand Dollar Future"))
+                System.out.println("NzdUsd Futures " + sheet.getRow(i).getCell(2) + " VOI " + sheet.getRow(i).getCell(6));
 
+            if (sheet.getRow(i) != null && sheet.getRow(i).getCell(0).getStringCellValue().equals("Swiss Franc Future"))
+                System.out.println("UsdChf Futures " + sheet.getRow(i).getCell(2) + " VOI " + sheet.getRow(i).getCell(6));
+        }
+    }
+
+    public void AudUsd_Options() throws IOException {
+
+        FileInputStream myInput = new FileInputStream(primary_file);
+        POIFSFileSystem myFileSystem = new POIFSFileSystem(myInput);
+        HSSFWorkbook workbook = new HSSFWorkbook(myFileSystem);
+
+        DataFormat format = workbook.createDataFormat();
+
+
+        HSSFSheet sheet = workbook.getSheetAt(0);
+
+
+        for (int i = 0; i < sheet.getLastRowNum(); i++) {
+            if (sheet.getRow(i) != null && sheet.getRow(i).getCell(0).getStringCellValue().equals("Premium Quoted European Style Options on Australian Dollar/US Dollar Future") && sheet.getRow(i).getCell(1).getStringCellValue().equals("Calls")) {
+                System.out.println("AudUsd Call Option " + sheet.getRow(i).getCell(2));
+            }
+            if (sheet.getRow(i) != null && sheet.getRow(i).getCell(0).getStringCellValue().equals("Premium Quoted European Style Options on Australian Dollar/US Dollar Future") && sheet.getRow(i).getCell(1).getStringCellValue().equals("Puts")) {
+                System.out.println("AudUsd Put Option " + sheet.getRow(i).getCell(2));
+            }
+        }
+    }
+
+    public void EurUsd_Options() throws IOException {
+
+        FileInputStream myInput = new FileInputStream(primary_file);
+        POIFSFileSystem myFileSystem = new POIFSFileSystem(myInput);
+        HSSFWorkbook workbook = new HSSFWorkbook(myFileSystem);
+
+        HSSFSheet sheet = workbook.getSheetAt(0);
+
+        for (int i = 0; i < sheet.getLastRowNum(); i++) {
+            if (sheet.getRow(i) != null && sheet.getRow(i).getCell(0).getStringCellValue().equals("Premium Quoted European Style Options on Euro/US Dollar Future") && sheet.getRow(i).getCell(1).getStringCellValue().equals("Calls")) {
+                System.out.println("EurUsd Call Option " + sheet.getRow(i).getCell(2));
+            }
+            if (sheet.getRow(i) != null && sheet.getRow(i).getCell(0).getStringCellValue().equals("Premium Quoted European Style Options on Euro/US Dollar Future") && sheet.getRow(i).getCell(1).getStringCellValue().equals("Puts")) {
+                System.out.println("EurUsd Put Option " + sheet.getRow(i).getCell(2));
+            }
+        }
+    }
+
+    public void GbpUsd_Options() throws IOException {
+
+        FileInputStream myInput = new FileInputStream(primary_file);
+        POIFSFileSystem myFileSystem = new POIFSFileSystem(myInput);
+        HSSFWorkbook workbook = new HSSFWorkbook(myFileSystem);
+
+        HSSFSheet sheet = workbook.getSheetAt(0);
+
+        for (int i = 0; i < sheet.getLastRowNum(); i++) {
+            if (sheet.getRow(i) != null && sheet.getRow(i).getCell(0).getStringCellValue().equals("Premium Quoted European Style Options on British Pound/US Dollar Future") && sheet.getRow(i).getCell(1).getStringCellValue().equals("Calls")) {
+                System.out.println("GbpUsd Call Option " + sheet.getRow(i).getCell(2));
+            }
+            if (sheet.getRow(i) != null && sheet.getRow(i).getCell(0).getStringCellValue().equals("Premium Quoted European Style Options on British Pound/US Dollar Future") && sheet.getRow(i).getCell(1).getStringCellValue().equals("Puts")) {
+                System.out.println("GbpUsd Put Option " + sheet.getRow(i).getCell(2));
+            }
+        }
+    }
+
+    public void UsdCad_Options() throws IOException {
+
+        FileInputStream myInput = new FileInputStream(primary_file);
+        POIFSFileSystem myFileSystem = new POIFSFileSystem(myInput);
+        HSSFWorkbook workbook = new HSSFWorkbook(myFileSystem);
+
+        HSSFSheet sheet = workbook.getSheetAt(0);
+
+        for (int i = 0; i < sheet.getLastRowNum(); i++) {
+            if (sheet.getRow(i) != null && sheet.getRow(i).getCell(0).getStringCellValue().equals("Premium Quoted European Style Options on Canadian Dollar/US Dollar Future") && sheet.getRow(i).getCell(1).getStringCellValue().equals("Calls")) {
+                System.out.println("UsdCad Call Option " + sheet.getRow(i).getCell(2));
+            }
+            if (sheet.getRow(i) != null && sheet.getRow(i).getCell(0).getStringCellValue().equals("Premium Quoted European Style Options on Canadian Dollar/US Dollar Future") && sheet.getRow(i).getCell(1).getStringCellValue().equals("Puts")) {
+                System.out.println("UsdCad Put Option " + sheet.getRow(i).getCell(2));
+            }
+        }
+    }
+
+    public void UsdJpy_Options() throws IOException {
+
+        FileInputStream myInput = new FileInputStream(primary_file);
+        POIFSFileSystem myFileSystem = new POIFSFileSystem(myInput);
+        HSSFWorkbook workbook = new HSSFWorkbook(myFileSystem);
+
+        HSSFSheet sheet = workbook.getSheetAt(0);
+
+        for (int i = 0; i < sheet.getLastRowNum(); i++) {
+            if (sheet.getRow(i) != null && sheet.getRow(i).getCell(0).getStringCellValue().equals("Premium Quoted European Style Options on Japanese Yen/US Dollar Future") && sheet.getRow(i).getCell(1).getStringCellValue().equals("Calls")) {
+                System.out.println("UsdJpy Call Option " + sheet.getRow(i).getCell(2));
+            }
+            if (sheet.getRow(i) != null && sheet.getRow(i).getCell(0).getStringCellValue().equals("Premium Quoted European Style Options on Japanese Yen/US Dollar Future") && sheet.getRow(i).getCell(1).getStringCellValue().equals("Puts")) {
+                System.out.println("UsdJpy Put Option " + sheet.getRow(i).getCell(2));
+            }
+        }
+    }
+
+    public void UsdChf_Options() throws IOException {
+
+        FileInputStream myInput = new FileInputStream(primary_file);
+        POIFSFileSystem myFileSystem = new POIFSFileSystem(myInput);
+        HSSFWorkbook workbook = new HSSFWorkbook(myFileSystem);
+
+        HSSFSheet sheet = workbook.getSheetAt(0);
+
+        for (int i = 0; i < sheet.getLastRowNum(); i++) {
+            if (sheet.getRow(i) != null && sheet.getRow(i).getCell(0).getStringCellValue().equals("Premium Quoted European Style Options on Swiss Franc/US Dollar Future") && sheet.getRow(i).getCell(1).getStringCellValue().equals("Calls")) {
+                System.out.println("UsdChf Call Option " + sheet.getRow(i).getCell(2));
+            }
+            if (sheet.getRow(i) != null && sheet.getRow(i).getCell(0).getStringCellValue().equals("Premium Quoted European Style Options on Swiss Franc/US Dollar Future") && sheet.getRow(i).getCell(1).getStringCellValue().equals("Puts")) {
+                System.out.println("UsdChf Put Option " + sheet.getRow(i).getCell(2));
+            }
         }
     }
 }
